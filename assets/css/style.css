@@ -842,6 +842,7 @@ html {
   .cards {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .cards .card {
     margin: 0 auto 50px;
