@@ -28,7 +28,6 @@
     ></lottie-player>
   </div>
   <div class="backdrop-loading">
-    <div style="text-align: center; padding-top: 200px;"><p>Bí Mật........ ==</p></div>
     <img class="backdrop-loading-img" src="./assets/img/totoro-dance.gif" alt="">
   </div>
   <div id="main">
@@ -377,9 +376,9 @@
 
   <script>
     document.addEventListener('readystatechange', () => {
-      // setTimeout(() => {
-      //   document.querySelectorAll('.backdrop-loading')[0].classList.add('hide')
-      // }, 3000)
+      setTimeout(() => {
+        document.querySelectorAll('.backdrop-loading')[0].classList.add('hide')
+      }, 3000)
     })
 
     const buyBtns = document.querySelectorAll('.js-buy-ticket')
